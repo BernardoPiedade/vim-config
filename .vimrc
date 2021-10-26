@@ -3,7 +3,7 @@ call plug#begin('~/.vim/plugged')
 	
 Plug 'morhetz/gruvbox'
 Plug 'sheerun/vim-polyglot'
-"Plug 'jiangmiao/auto-pairs'
+Plug 'jiangmiao/auto-pairs'
 Plug 'ervandew/supertab'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -50,8 +50,6 @@ let g:coc_global_extensions =
   \ 'coc-tsserver',
   \ 'coc-eslint',
   \ 'coc-snippets',
-  \ 'coc-pairs',
-  \ 'coc-json',
   \ 'coc-html',
   \ 'coc-css',
   \ 'coc-phpls',
